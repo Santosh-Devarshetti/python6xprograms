@@ -1,1 +1,6 @@
 print("hello world")
+print("hello world of python", "congrats", " for your first program",sep = "|")
+print("apple","banana","cherry", sep="|")
+print("A","B","C","E",sep="-")
+print("Python","rocks",sep ="-",end="|Always\n")
+print("hello world from Python",end="!")
