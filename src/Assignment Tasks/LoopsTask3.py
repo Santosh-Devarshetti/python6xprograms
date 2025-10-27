@@ -7,8 +7,12 @@ i= 0
 while i<len(pageload_time):
     time = pageload_time[i]
     if time <= 5:
-        print("Success")
+        print(f"page load time {i+1} is Success")
         # break
     else:
-        print("Failed")
+        print(f"page load time {i+1} is Failed")
     i= i + 1
+
+
+
+
